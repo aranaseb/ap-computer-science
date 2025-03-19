@@ -1,0 +1,30 @@
+                Billfold
+-card1: Card
+-card2: Card
++addCard(card Card)
++formatCards()
+ 
+                  Card
+-name: String
+ 
++getName()
++isExpired()
++format()
+                IDCard
+-idNumber: int
+ 
++format()
+ 
+ 
+            CallingCard
+-cardNumber: int
+-pin: int
++format()
+ 
+ 
+           DriverLicense
+-expYear: int
+ 
++isExpired()
++format()
+ 
